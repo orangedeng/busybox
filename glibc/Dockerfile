@@ -1,4 +1,4 @@
-FROM debian:2.27-6
+FROM debian:buster
 
 RUN \
     apt-get update && apt-get install -y --no-install-recommends \
