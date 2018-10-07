@@ -1,4 +1,4 @@
-FROM debian:stretch
+FROM debian:2.27-6
 
 RUN \
     apt-get update && apt-get install -y --no-install-recommends \
